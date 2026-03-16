@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Youtube Channel Viewer</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">
+      <h2>Youtube Channel Viewer</h2>
+      <button class="logout" id="logout-btn">Logout</button>
+    </div>
+    
+    <div class="search">
+      <input id="channel_id" placeholder="Enter Channel ID">
+      <button id="sync-btn">Sync</button>
+    </div>
+    
+    <div class="channel-section">
+      <div class="profile-section">
+        <div id="profile-picture"></div>
+        <div class="channel-information">
+          <div id="channel-name"></div>
+          <div id="channel-description"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- grid 6 -->
+    <div class="video-section"></div>
+    <div class="pagination">
+      <button id="prev-btn">Previous</button>
+      <span id="page-info">0</span>
+      <button id="next-btn">Next</button>
+    </div>
+  </div>
+    
+  <script src="assets/script.js"></script>
+</body>
+</html>
